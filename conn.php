@@ -1,5 +1,5 @@
 <?php
-$link = "localhost";
+$link = "https://github.com/TrchisDora/TrchisDora";
 $db= "testweb";
 $user = "root";
 $pass ="";
