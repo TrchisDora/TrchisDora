@@ -1,0 +1,74 @@
+.background-form {
+    border-top: 1px solid #e2e2e2;
+    margin-top: 16px;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20% 0;
+}
+
+.name-acc,
+.user-acc,
+.password-acc,
+.email-user,
+.phone,
+.address {
+    display: flex;
+}
+
+.sign-up-form i {
+    font-size: 26px;
+    width: 36px;
+}
+
+.sign-up-now {
+    color: #504e4e;
+    font-size: 32px;
+    text-align: center;
+    margin: 10px 0 6px;
+}
+
+.sign-up-form label,
+.sign-up-form input {
+    display: inline-block;
+    margin: 14px 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    font-size: 16px;
+}
+
+.sign-up-form #hoten,
+.sign-up-form #user,
+.sign-up-form #pass,
+.sign-up-form #email,
+.sign-up-form #sdt,
+.sign-up-form #Dc {
+    flex: 1;    
+}
+
+.sign-up-form #hoten:focus,
+.sign-up-form #user:focus,
+.sign-up-form #pass:focus,
+.sign-up-form #email:focus,
+.sign-up-form #sdt:focus,
+.sign-up-form #Dc:focus {
+    outline: none;    
+}
+
+.sign-up-form #sub {
+    width: 400px;
+    height: 70px;
+    background-color: #fb5b08;
+    color: #fff;
+    font-size: 18px;
+    margin: 18px auto 14px;
+    border: 0;
+    cursor: pointer;
+}
+
+.sign-up-form #sub:hover {
+    opacity: 0.93;
+}

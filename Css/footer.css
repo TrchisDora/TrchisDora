@@ -1,0 +1,83 @@
+
+/* ------------- Footer ------------------ */
+.footer{
+    position: absolute;
+    width: 100%;
+    border-top: 1px solid #e2e2e2;
+    background-color: #fff;
+    color: black;
+}
+.footer-top{
+    display: flex;
+    padding: 15px 0 5px;
+}
+.footer-col{
+    width: 25%;
+}
+.footer-col:nth-child(2) {
+    width: 25%;
+}
+.footer-col:nth-child(3) {
+    width: 36%;
+}
+.footer-col:nth-child(4) {
+    width: 19%;
+}
+.footer-list li a{
+    color: #333;
+    font-size: 15px;
+}
+.footer-list li a:hover{
+    color: #2f80ed;
+}
+.footer-list li{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.footer-list span{
+    display: inline-block;
+    width: 70px;
+}
+.footer-list .support{
+    width: auto;
+    font-weight: bold;
+}
+.footer-list .call{
+    color: #2f80ed;
+    padding-left: 5px;
+    font-weight: bold;
+    width: 85px;
+    display: inline-block;
+}
+.footer-media li{
+    display: flex;
+    flex-direction: column;
+}
+.footer-media li a{
+    color: #2f80ed;
+    font-size: 15px;
+    margin-bottom: 34px;
+}
+.footer-media i{
+    font-size: 20px;
+    margin-right: 4px;
+}
+.footer-bottom{
+    background-color: #f1f1f1;
+    padding: 15px 0;
+}
+.footer-bottom-address {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.footer-bottom-address p{
+    color: #666;
+    font-size: 13px;
+    line-height: 16px
+}
+.footer-bottom-address a{
+    color: #288ad6;
+    font-size: 13px;
+}
